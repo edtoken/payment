@@ -388,7 +388,7 @@ var payment =
 	      return e.preventDefault();
 	    }
 	  } else {
-	    if (!(value.length <= 16)) {
+	    if (!(value.length <= 18)) {
 	      return e.preventDefault();
 	    }
 	  }
