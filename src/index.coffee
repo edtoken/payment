@@ -312,7 +312,7 @@ restrictCardNumber = (e) ->
     e.preventDefault() unless value.length <= card.length[card.length.length - 1]
   else
     # All other cards are 16 digits long
-    e.preventDefault() unless value.length <= 16
+    e.preventDefault() unless value.length <= 18
 
 restrictExpiry = (e, length) ->
   target = e.target
